@@ -78,7 +78,7 @@ max-width: 100%;
 .title-xioami{
 text-align: center;
 font-size: 3rem;
-font-weight: 600;
+font-weight: 400;
 font-family: "Camphor Pro", sans-serif;
 position: relative;
 overflow-wrap: break-word;
@@ -86,8 +86,8 @@ overflow-wrap: break-word;
 
 .subtitle-xioami{
 text-align: center;
-font-size: 2rem;
-font-weight: 300;
+font-size: 1.5rem;
+font-weight: 0;
 font-family: "Camphor Pro", sans-serif;
 position: relative;
 overflow-wrap: break-word;
