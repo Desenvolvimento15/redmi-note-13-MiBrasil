@@ -204,13 +204,14 @@ margin: 1rem;
 
 }
 
-.grid-xiaomi-text{
+.grid-xiaomi-text {
     display: flex;
-    align-items: center;
-    align-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    align-content: center;
+    align-items: center;
 }
 
 .grid-icons-text-note {
