@@ -163,22 +163,25 @@ font-family: "Camphor Pro", sans-serif;
 font-weight: 700;
 color: var(--text-preto);
 line-height: 1.2;
+text-align: center;
 }
 
 .icons-title-mp {
-font-size: 2rem;
-font-family: "Camphor Pro", sans-serif;
-font-weight: 700;
-color: var(--text-preto);
-line-height: 2;
+    font-size: 2rem;
+    font-family: "Camphor Pro", sans-serif;
+    font-weight: 700;
+    color: var(--text-preto);
+    line-height: 2;
+    text-align: center;
+    margin-bottom: -0.5rem;
 }
 
 .icons-tex {
 font-size: 1rem;
 font-family: "Camphor Pro", sans-serif;
-
 font-weight: 400;
 line-height: 1.2;
+text-align: center;
 }
 
 .icons-size {
@@ -186,10 +189,7 @@ width: 4rem;
 margin: 1rem;
 }
 
-.icons-size-mp{
-width: 6.5rem;
-margin: 2rem;
-}
+
 
 .icons-img-text {
     display: flex;
@@ -216,6 +216,30 @@ margin: 2rem;
     flex-wrap: nowrap;
     justify-content: center;
 }
+
+.grid-icons-text-note {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.icons-text-note{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+
+
+
+
 
 
 .container-box {
@@ -321,44 +345,43 @@ max-width: 100%;
 }
 
 /********************** Grind Mobile *******************/
+.grid-xiaomi-text-info {
 
-.grid-desk-xiaomi{ 
-width: 70%;
-display: flex;
-flex-direction: column;
-align-items: stretch;
-flex-wrap: nowrap;
-}
+    display: flex;
+    align-items: center;
+    align-content: center;
 
-.grid-icons-xiaomi {
-gap: 0.5rem;
-display: flex;
-flex-direction: column;
-justify-content: center;
-width: 13rem;
-margin: 0 auto;
-align-items: flex-start;
-}
-
-.grid-xiaomi{ 
-width: 74%;
-display: flex;
-flex-direction: column;
-align-items: stretch;
-flex-wrap: nowrap;
-}
-
-.grid-xiaomi-retrato {
-width: 100%;
-display: flex;
-flex-direction: row;
-align-items: center;
-align-content: center;
-justify-content: center;
-margin: 0 auto;
 }
 
 
+.grid-xiaomi-text{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.grid-icons-text-note {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.icons-text-note{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
 
 /********************************************************/
 
