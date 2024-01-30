@@ -34,17 +34,7 @@ margin-right: -15px;
 margin-left: -15px;
 }
 
-.col-sm-12-s102{
-position: relative;
-width: 100%;
-min-height: 1px;
-}
 
-.col-sm-12-s102 {
--ms-flex: 0 0 100%;
-flex: 0 0 100%;
-max-width: 100%;
-}
 
 :root{
 
@@ -202,58 +192,50 @@ margin: 2rem;
 }
 
 .icons-img-text {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.icons-img-text-octa{
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-align-items: center;
-line-height: 3;
 
-}
 /************************ Grid ***********************/
 
+.grid-xiaomi-text-info {
 
-.grid-desk-xiaomi {
-gap: 1.5rem;
-margin: 0 auto;
-display: grid;
-grid-template-columns: 1fr 1fr;
-width: 42rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
 }
 
-.grid-icons-xiaomi {
-gap: 1.5rem;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: center;
-align-items: center;
+
+.grid-xiaomi-text{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
-.grid-xiaomi {
-gap: 1.5rem;
-margin: 0 auto;
-display: grid;
-grid-template-columns: 1fr 1fr;
-width: 38rem;
+
+.container-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 21vh;
+    gap: 1rem;
+    width: 49rem;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.grid-xiaomi-retrato {
-width: 31%;
-display: flex;
-align-items: center;
-align-content: center;
-justify-content: center;
-margin: 0 auto;
-flex-direction: row;
+.bloco {
+    background-color: #87B577;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
-
 
 /********************** Slideshow ********************/
 
