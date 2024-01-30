@@ -1,4 +1,3 @@
-
 .container-s101 {
 max-width: 1440px;
 background-color: #fff;
@@ -33,7 +32,6 @@ flex-wrap: wrap;
 margin-right: -15px;
 margin-left: -15px;
 }
-
 
 
 :root{
@@ -207,7 +205,6 @@ margin: 1rem;
 
 }
 
-
 .grid-xiaomi-text{
     display: flex;
     align-items: center;
@@ -239,27 +236,6 @@ margin: 1rem;
 
 
 
-
-
-
-.container-box {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 21vh;
-    gap: 1rem;
-    width: 49rem;
-    margin: 0 auto;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.bloco {
-    background-color: #87B577;
-    padding: 20px;
-    color: white;
-    text-align: center;
-}
 
 /********************** Slideshow ********************/
 
@@ -367,8 +343,8 @@ max-width: 100%;
     display: flex;
     gap: 3rem;
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     flex-wrap: nowrap;
 }
 
@@ -382,6 +358,9 @@ max-width: 100%;
     align-items: center;
     line-height: 1.5;
 }
+
+
+
 
 /********************************************************/
 
@@ -402,19 +381,20 @@ font-family: "Camphor Pro", sans-serif;
 position: relative;
 overflow-wrap: break-word;
 }
-.sub-title {
-text-align: center;
-font-size: 1.2rem;
-font-weight: 350;
+
+
+.subtitle-left {
+text-align: left;
+font-size: 1.5rem;
+font-weight: 700;
 font-family: "Camphor Pro", sans-serif;
 position: relative;
-overflow-wrap: break-word;
+margin-bottom: 0.5rem;
 }
 
-
-.subtitle {
+.subtitle-center {
 text-align: center;
-font-size: 1.6rem;
+font-size: 1.5rem;
 font-weight: 700;
 font-family: "Camphor Pro", sans-serif;
 position: relative;
@@ -424,11 +404,18 @@ margin-bottom: 0.5rem;
 .p-center {
 font-size: 0.99rem;
 text-align: center;
-padding: 1rem;
 font-family: "Camphor Pro", sans-serif;
 position: relative;
 overflow-wrap: break-word;
 }
+
+.p-left {
+    font-size: 0.99rem;
+    text-align: left;
+    font-family: "Camphor Pro", sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    }
 
 .icons-text {
 font-size: 1rem;
@@ -440,15 +427,27 @@ line-height: 1.2;
 margin-top: 1rem;
 }
 
-.icons-img{
-width: 6rem;
+.icons-img{width: 6rem;}
+
+.icons-title-mp {
+    font-size: 1.3rem;
+    font-family: "Camphor Pro", sans-serif;
+    font-weight: 700;
+    color: var(--text-preto);
+    line-height: 2;
+    text-align: center;
+    margin-bottom: -0.5rem;
 }
+
 
 .p-notas {
 text-align: left;
 font-size: 0.9rem;
 padding: 0.5rem;
 }
+
+
+
 
 .btn-black {
 text-align: center;
